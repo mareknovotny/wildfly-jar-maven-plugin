@@ -39,6 +39,7 @@
                     <plugin-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>
                     </plugin-options>
+                    <outputFileName>${project.build.finalName}-standalone.jar</outputFileName>
                 </configuration>
                 <executions>
                     <execution>
